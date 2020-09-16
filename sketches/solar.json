@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Sun",
+    "color": "yellow",
+    "radius": 70,
+    "year": 1
+  },
+  {
+    "name": "Mercury",
+    "color": "#A08C82",
+    "radius": 20,
+    "year": 87.97
+  },
+  {
+    "name": "Venus",
+    "color": "#E6D4B4",
+    "radius": 30,
+    "year": 224.7
+  },
+  {
+    "name": "Earth",
+    "color": "#2E5096",
+    "radius": 30,
+    "year": 365.26
+  },
+  {
+    "name": "Mars",
+    "color": "#F7764B",
+    "radius": 25,
+    "year": 386.7
+  },
+  {
+    "name": "Jupiter",
+    "color": "#E6DCD2",
+    "radius": 50,
+    "year": 4332
+  },
+  {
+    "name": "Saturn",
+    "color": "#FED28C",
+    "radius": 45,
+    "year": 10760.6
+  },
+  {
+    "name": "Uranus",
+    "color": "#A7D7D8",
+    "radius": 40,
+    "year": 30685.5
+  },
+  {
+    "name": "Neptune",
+    "color": "#5156F1",
+    "radius": 38,
+    "year": 60191.2
+  }
+]
