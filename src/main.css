@@ -8,3 +8,12 @@ body {
         max-width: 770px;
     }
 }
+
+.hide
+{
+    opacity:0;
+}
+
+.section {
+    margin-top: 50px;
+}
