@@ -37,7 +37,6 @@ let map = function (p) {
       p.noStroke();
       p.fill(255, 255, 255, 100);
       p.circle(warsaw.x, warsaw.y, 30);
-      console.log('draw');
     }
     function myFly(map) {
         if($('#map-card').css('opacity') > 0.3) {
