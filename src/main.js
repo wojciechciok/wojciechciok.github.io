@@ -11,7 +11,9 @@ function getMyAge() {
     // Do your operations
     let endDate  = new Date();
     let seconds = parseInt((endDate.getTime() - startDate.getTime()) / 1000);
-    document.getElementById('myAge').innerHTML = `I am ${seconds} seconds old`;
+    $('.myAge').each(function(i) {
+        $(this).html(`I am ${seconds} seconds old`);
+    })
 }
 getMyAge();
 setInterval(getMyAge, 1000);

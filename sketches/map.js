@@ -37,15 +37,21 @@ let map = function (p) {
       p.noStroke();
       p.fill(255, 255, 255, 100);
       p.circle(warsaw.x, warsaw.y, 30);
+      console.log('draw');
     }
+    function myFly(map) {
+        if($('#map-card').css('opacity') > 0.3) {
+          $(window).unbind('scroll');
+          map.map.flyTo([52, 19], 5.5);
+          initializeFadeIn();
+          map.map.on('zoomend', function () {
+            map.map.dragging.disable();
+            p.noLoop();
+          });
+        }
+      }
   }
   
-  function myFly(map) {
-    if($('#map-card').css('opacity') > 0.3) {
-      $(window).unbind('scroll');
-      map.map.flyTo([52, 19], 5.5);
-      initializeFadeIn();
-    }
-  }
+
   
   let mapP5 = new p5(map, 'map');
