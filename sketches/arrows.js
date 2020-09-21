@@ -38,7 +38,6 @@ p.setup = function() {
     p.fill(255);
     let w = p.width/2;
     let h = p.height/2;
-    console.log('ok')
     p.triangle(w-startSize, h-startSize, w-startSize, h+startSize, w+startSize, h);
 }
 
