@@ -11,6 +11,7 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2cf957ce8e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/src/main.css">
     <!-- Load p5 library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
@@ -55,9 +56,9 @@
         </div>
       </div>
 
-      <div class="section">
+      <div class="section" style="margin-bottom: 20%;">
         <h2 class="hide">
-          <span class="myAge"></span> Young, motivated, creative software developer with a great interest in the web, currently studying masters at DTU.
+          <span class="myAge"></span><br/>Young, motivated, creative software developer with a great interest in the web, currently studying masters at DTU.
           <br/><br/>
           Here is my journey:
         </h2>
@@ -123,18 +124,155 @@
           More projects on my github: <a href="https://github.com/ciokos" target="_blank">https://github.com/ciokos</a>
         </h2>
       </div>
-      
+    
       <div class="section">
-        <div id="solar" class="hide"></div>
+        <div class="hide" style="text-align: center; margin-bottom: 50px;">
+          <h2>
+            A bit more about myself and my interests:
+          </h2>
+        </div>
+        <div class="row hide">
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-shoe-prints"></i>
+            </h1>
+            <h5>Dancing</h5>
+            <p>
+              I've been a dancer for over 10 years. My parents tought me as they are dance teachers.
+            </p>
+          </div>
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-guitar"></i>
+            </h1>
+            <h5>Music</h5>
+            <p>
+              I play the guitar as well as drums. I also tried creating some electronic music.
+            </p>
+          </div>
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-film"></i>
+            </h1>
+            <h5>Cinema</h5>
+            <p>
+              I am a big movies enthusiast. I probably saw your favourite movie, let's talk about it!
+            </p>
+          </div>
+        </div>
+        <div class="row hide">
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-mountain"></i>
+            </h1>
+            <h5>Climbing</h5>
+            <p>
+              I picked up climbing in 2019 when some of my friends invited me to a gym. I climb with ropes and boulder.
+            </p>
+          </div>
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-circle"></i>
+            </h1>
+            <h5>Ultimate</h5>
+            <p>
+              On my exchange in Denmark I discovered Ultimate Frisbee - the sport I was born to play.
+            </p>
+          </div>
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-futbol"></i>
+            </h1>
+            <h5>Football</h5>
+            <p>
+              Passion to football in a country where it is the most popular sport. I'd rather play myself then watch a match.
+            </p>
+          </div>
+        </div>
+        <div class="row hide">
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-suitcase-rolling"></i>
+            </h1>
+            <h5>Traveling</h5>
+            <p>
+              I've been traveling with friends since I was 16. I visited most of Europe and I'm not afraid of hitchhiking too.
+            </p>
+          </div>
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-gamepad"></i>
+            </h1>
+            <h5>Gaming</h5>
+            <p>
+              I enjoy playing games on my computer. I am especially fond of playing competitive games with my friends.
+            </p>
+          </div>
+          <div class="col-12 col-sm-4" style="text-align: center;">
+            <h1>
+              <i class="fas fa-code"></i>
+            </h1>
+            <h5>Programming</h5>
+            <p>
+              I love solving puzzles and that what programming is for me. I am a fan of p5.js library for creative programming.
+            </p>
+          </div>
+        </div>
+
+      <div class="section hide" style="text-align: center;">
+        <h3>Here is an example of what I like to do in my spare time:</h3>
+        <h5>A liitle animation of the solar system where orbit times ratios are correct.</h5>
+        <div id="solar"></div>
+      </div>
+
+      <div class="section hide" style="text-align: center;">
+        <h5>A simple game using keyboard arrows.</h5>
+        <div id="arrows"></div>
       </div>
       
 
     </div> <!-- /container -->
+    <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h5>Made with:</h5>
+      </div>
+      <div class="col">
+        <h1 style="color: yellow;"><i class="fab fa-js"></i></h1>
+      </div>
+      <div class="col">
+        <h1 style="color: orange;"><i class="fab fa-html5"></i></h1>
+      </div>
+      <div class="col">
+        <h1 style="color: blue;"><i class="fab fa-css3-alt"></i></h1>
+      </div>
+      <div class="col">
+        <h1 style="color: purple;"><i class="fab fa-bootstrap"></i></h1>
+      </div>
+      <div class="col">
+        <h1 style="color: magenta;">p5*</h1>
+      </div>
+    </div>
+
+  </div>
+  <!-- Footer Elements -->
+  <div class="container">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">by Wojciech Ciok <span style="color: pink;">&hearts;</span>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/src/main.js"></script>
     <script src="/sketches/solar.js"></script>
     <script src="/sketches/map.js"></script>
+    <script src="/sketches/arrows.js"></script>
+
   </body>
 </html>

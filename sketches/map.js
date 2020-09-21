@@ -25,7 +25,14 @@ let map = function (p) {
       // // Overlay the canvas over the tile map
       myMap.overlay(canvas, () => {
         $("#mappa").detach().appendTo("#map");
+        myMap.map.dragging.disable();
+        myMap.map.touchZoom.disable();
+        myMap.map.doubleClickZoom.disable();
+        myMap.map.scrollWheelZoom.disable();
+        myMap.map.boxZoom.disable();
+        myMap.map.keyboard.disable();
         $(window).bind('scroll', function() {
+
           myFly(myMap);
         });
       });
@@ -43,10 +50,6 @@ let map = function (p) {
           $(window).unbind('scroll');
           map.map.flyTo([52, 19], 5.5);
           initializeFadeIn();
-          map.map.on('zoomend', function () {
-            map.map.dragging.disable();
-            p.noLoop();
-          });
         }
       }
   }
