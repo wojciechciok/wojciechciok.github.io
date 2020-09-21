@@ -18,6 +18,10 @@ body {
     margin-top: 60px;
 }
 
+.technology {
+    color: pink;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
