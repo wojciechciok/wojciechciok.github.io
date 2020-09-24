@@ -26,11 +26,14 @@ function initializeFadeIn() {
     /* Every time the window is scrolled ... */
     $(window).scroll( function() {
 
+        let offset = 150;
+
         /* Check the location of each desired element */
         $('.hide').each( function(i) {
             
+            
             let top_of_object = $(this).position().top;
-            let most_of_window = $(window).scrollTop() + $(window).height()*3/4;
+            let most_of_window = $(window).scrollTop() + $(window).height() - offset;
             
             /* If the object is completely visible in the window, fade it it */
             if( top_of_object < most_of_window) {
