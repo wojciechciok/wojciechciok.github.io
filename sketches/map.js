@@ -11,7 +11,7 @@ let map = function (p) {
     lat: 0,
     lng: 0,
     zoom: 1,
-    style: "http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
+    style: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
     attributionControl: false,
     zoomControl: false,
   };
